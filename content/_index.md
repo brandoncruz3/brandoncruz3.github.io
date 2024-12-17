@@ -1,6 +1,6 @@
 ## Hi there! 👋
 
-<img class="avatar" src="images/avatar.png" alt="Brandon Cruz Headshot">
+<img class="avatar" src="./posts/assets/avatar.png" alt="Brandon Cruz Headshot">
 
 My name is Brandon and I have been carving/creating/managing cloud architecture for the past 8+ years. I am currently a Staff DevOps Engineer at Ad Hoc LLC working on multiple teams in [CMS](https://www.cms.gov/)
 
