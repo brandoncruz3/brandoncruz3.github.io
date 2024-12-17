@@ -2,3 +2,6 @@ public
 .DS_Store
 .hugo_build.lock
 todo.txt
+
+/.obsidian/
+/content/.obsidian/

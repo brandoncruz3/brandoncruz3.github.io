@@ -8,9 +8,9 @@
       {{ partial "header.html" . }}
       {{ .Content }}
       {{ if gt (len ( where .Site.RegularPages "Section" "posts" )) 0 }}
-      <h2>Latest Posts</h2>
+      <h1>Latest Post</h1>
       <section>
-        {{ range (first 5 (where .Site.RegularPages "Section" "posts" ).ByDate.Reverse) }}
+        {{ range (first 3 (where .Site.RegularPages "Section" "posts" ).ByDate.Reverse) }}
           <p>
             <time class="g time" datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>&nbsp;
             <a href="{{ .Permalink }}">{{ .Title }}</a>
@@ -20,7 +20,5 @@
       {{ end }}
     </div>
   </main>
-  {{ partial "footer.html" . }}
 </body>
 </html>
-
